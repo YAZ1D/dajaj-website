@@ -10,6 +10,9 @@ import {
 } from "lucide-react";
 import ServiceModal from "../components/ServiceModal";
 import usePageMeta from "../hooks/usePageMeta";
+import { Link } from "react-router-dom";
+
+
 
 export default function Services() {
   usePageMeta({
@@ -235,13 +238,14 @@ export default function Services() {
 
           {/* CTA */}
           <div className="text-center">
-            <a
-              href="/contact"
+            <Link
+              to="/contact"
               className="inline-flex items-center justify-center px-8 py-4 rounded-lg bg-[#003366]
-                         text-white font-semibold hover:bg-[#004C99] shadow-md"
+                        text-white font-semibold hover:bg-[#004C99] shadow-md"
             >
               Discuss Your Data Needs
-            </a>
+            </Link>
+
           </div>
         </div>
       </section>

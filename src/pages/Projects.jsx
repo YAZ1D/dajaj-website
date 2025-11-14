@@ -74,7 +74,7 @@ export default function Projects() {
 
               <div className="mt-6 flex gap-3">
                 <a
-                  href="https://yazidmouayn.vercel.app/?utm_source=dajajllc&utm_medium=site&utm_campaign=projects_transit"
+                  href="https://yazidmouayn.vercel.app/project/transit"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-5 py-3 rounded-lg 
@@ -196,7 +196,7 @@ export default function Projects() {
 
               <div className="mt-6 flex gap-3">
                 <a
-                  href="https://yazidmouayn.vercel.app/?utm_source=dajajllc&utm_medium=site&utm_campaign=projects_acs"
+                  href="https://yazidmouayn.vercel.app/project/quad-cities"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-5 py-3 rounded-lg 
