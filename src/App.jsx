@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import { Analytics } from "@vercel/analytics/react";
+
 
 
 
@@ -199,6 +201,8 @@ export default function App() {
             </div>
           </div>
         </footer>
+        <Analytics />
+
 
       </div>
     </Router>
